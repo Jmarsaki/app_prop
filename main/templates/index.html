@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propinas App</title>
+</head>
+<body>
+    <h1>Bienvenido a la App de Propinas</h1>
+
+    <form action="/transferir" method="post">
+        <label for="nombre_receptor">Nombre del receptor:</label>
+        <input type="text" name="nombre_receptor" required>
+        <br>
+        <label for="monto">Monto:</label>
+        <input type="number" name="monto" step="0.01" required>
+        <br>
+        <input type="submit" value="Transferir">
+    </form>
+
+    <h2>Propinas Recientes</h2>
+    <a href="/ver_propinas">Ver propinas</a>
+</body>
+</html>

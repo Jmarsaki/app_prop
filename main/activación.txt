@@ -1,0 +1,17 @@
+
+Micromanual de instrucciones:
+
+1-
+
+C:\Users\Mariano>cd C:\Users\Mariano\Documents\GitHub\PortalMNL 
+
+C:\Users\Mariano>cd C:\Users\Mariano\Documents\GitHub\PortalMNL\main
+
+env\Scripts\activate.bat
+
+2-
+ python server.py  
+
+ node server.js 
+
+flask run                       
